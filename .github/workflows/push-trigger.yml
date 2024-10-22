@@ -91,19 +91,13 @@ jobs:
       SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK }}
 
   call-trivy-scan:
-   uses: mosip/kattu/.github/workflows/trivy.yml@develop
-   strategy:
-    matrix:
-      include:
-        - SERVICE_LOCATION: 'kernel/kernel-keymanager-service'
-          SERVICE_NAME: 'kernel-keymanager-service'
-          BUILD_ARTIFACT: 'kernel'
-        - SERVICE_LOCATION: 'kernel/keys-generator'
-          SERVICE_NAME: 'keys-generator'
-          BUILD_ARTIFACT: 'kernel'
-        - SERVICE_LOCATION: 'kernel/keys-migrator'
-          SERVICE_NAME: 'keys-migrator'
-          BUILD_ARTIFACT: 'kernel'
-   with:
-    service_name: ${{ matrix.SERVICE_LOCATION }}
-    version: ${{ github.ref_name }}
+     uses: mosip/kattu/.github/workflows/trivy.yml@develop
+     strategy:
+      matrix:
+       include:
+        - SERVICE_NAME: 'kernel-keymanager-service'
+        - SERVICE_NAME: 'keys-generator'
+        - SERVICE_NAME: 'keys-migrator'
+     with:
+      service_name: ${{ matrix.SERVICE_NAME }}
+      version: latest
