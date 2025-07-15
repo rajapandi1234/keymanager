@@ -37,7 +37,7 @@
 		<tss.version>0.3.0</tss.version>
 		<cache2k-version>2.4.1.Final</cache2k-version>
 		<spring.boot.configuration.processor>3.2.3</spring.boot.configuration.processor>
-		<com.nimbusds.nimbus-jose-jwt.version>9.37.2</com.nimbusds.nimbus-jose-jwt.version>
+		<com.nimbusds.nimbus-jose-jwt.version>10.0.2</com.nimbusds.nimbus-jose-jwt.version>
 		<io.projectreactor.reactor-core.version>3.1.7.RELEASE</io.projectreactor.reactor-core.version>
 		<de.mkammerer.argon2-jvm-nolibs.version>2.11</de.mkammerer.argon2-jvm-nolibs.version>
 		<net.java.dev.jna.version>5.13.0</net.java.dev.jna.version>
