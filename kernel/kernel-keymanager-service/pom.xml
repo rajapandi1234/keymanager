@@ -50,7 +50,7 @@
 		<springdoc.openapi.starter.webmvc.ui.version>2.6.0</springdoc.openapi.starter.webmvc.ui.version>
 		<bcprov.jdk18on.version>1.78.1</bcprov.jdk18on.version>
 		<bcpkix.jdk18on.version>1.78.1</bcpkix.jdk18on.version>
-		<mockito.core.version>3.4.3</mockito.core.version>
+		<mockito.core.version>3.12.4</mockito.core.version>
 	</properties>
 
 	<repositories>
