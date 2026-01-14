@@ -42,7 +42,7 @@
 		<spring.boot.version>2.0.2.RELEASE</spring.boot.version>
 		<spring.data.jpa.version>2.0.7.RELEASE</spring.data.jpa.version>
 		<spring.security.test.version>5.0.5.RELEASE</spring.security.test.version>
-		<spring-cloud-config.version>2.0.4.RELEASE</spring-cloud-config.version>
+		<spring-cloud-config.version>3.1.9</spring-cloud-config.version>
 		<lombok.version>1.18.8</lombok.version>
 		<kernel-keymanager-service.version>1.2.2.0-SNAPSHOT</kernel-keymanager-service.version>
 		<jacoco.maven.plugin.version>0.8.5</jacoco.maven.plugin.version>
